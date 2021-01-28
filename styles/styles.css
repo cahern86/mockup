@@ -1,6 +1,6 @@
 * { box-sizing: border-box; }
 
-header {
+.header-main {
   font-family: sans-serif;
   font-size: 45px;
   color: #ffffff;
@@ -11,10 +11,25 @@ header {
   padding: 3rem 5rem 8rem 12rem;
 }
 
+.header-profiles {
+  font-family: sans-serif;
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(44, 153, 181);
+  height: 2rem;
+  padding: 3rem 5rem 8rem 12rem;
+  z-index: -1
+
+}
+
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 21px;
   color: white;
+  z-index: 1
 }
 
 h2 {
@@ -26,6 +41,14 @@ h2 {
 h3 {
   text-transform: uppercase;
   position: inherit;
+}
+
+h4 {
+  font-family: Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #7D859C;
+
 }
 
 nav.intro {
@@ -43,9 +66,18 @@ body {
   font-size: 18px;
 }
 
-aside {
+.aside-main {
   float: right;
   padding: 1.5rem 12rem 6rem 11rem;
+}
+
+.aside-profiles {
+  float: right;
+  padding: 1.5rem 12rem 5rem 11rem;
+}
+
+p.double-space {
+  line-height: 2;
 }
 
 .sidebar-cat {
@@ -75,10 +107,6 @@ footer {
   text-align: center;
   background-color: #403c3b;
   height: 2rem;
-  padding: 3rem 5rem 14rem 7rem;
+  padding: 3rem 5rem 20rem 7rem;
   clear: right;
-}
-
-p.double-space {
-  line-height: 2;
 }
