@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 header {
   font-family: sans-serif;
   font-size: 45px;
@@ -6,26 +8,77 @@ header {
   text-transform: uppercase;
   background-color: rgb(44, 153, 181);
   height: 2rem;
-  padding: 3rem 10rem 4rem 7rem;
+  padding: 3rem 5rem 8rem 12rem;
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
-  font-style: italic;
-  color: black;
+  font-size: 21px;
+  color: white;
 }
 
-nav {
+h2 {
+  color: rgb(44, 153, 181);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+h3 {
+  text-transform: uppercase;
+  position: inherit;
+}
+
+nav.intro {
   font-family: Arial;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   color: darkslategray;
   background-color: #dddddd;
-  padding: 1rem 10rem 1rem 7rem;
+  padding: 1rem 10rem 1rem 12rem;
+}
+
+body {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+aside {
+  float: right;
+  padding: 1.5rem 12rem 6rem 11rem;
+}
+
+.sidebar-cat {
+  position: relative;
+  right: 40px;
+}
+
+.main {
+  padding: 1rem 20rem 1rem 12rem;
+  line-height: 2;
 }
 
 a {
-  color: darkslategray;
+  color: rgb(36, 182, 214);
+}
+
+.callout {
+  color: rgb(36, 182, 214);
+  font-size: 28px;
+  position: inherit;
+}
+
+footer {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  background-color: #403c3b;
+  height: 2rem;
+  padding: 3rem 5rem 14rem 7rem;
+  clear: right;
+}
+
+p.double-space {
+  line-height: 2;
 }
