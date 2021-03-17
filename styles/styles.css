@@ -24,6 +24,15 @@
 
 }
 
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+}
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +42,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(44, 153, 181);
+  color: #22768C;
   font-weight: bold;
   font-size: 24px;
 }
@@ -59,6 +68,11 @@ nav.intro {
   color: darkslategray;
   background-color: #dddddd;
   padding: 1rem 10rem 1rem 12rem;
+}
+
+nav.intro>a {
+  padding: .5rem;
+  margin: .5rem;
 }
 
 body {
