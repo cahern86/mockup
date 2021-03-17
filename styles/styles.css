@@ -26,7 +26,7 @@
 
 .hidden {
   position: relative;
-  left: -10000px;
+  left: -100000px;
   top: auto;
 }
 
@@ -70,9 +70,10 @@ nav.intro {
   padding: 1rem 10rem 1rem 12rem;
 }
 
-nav a {
+a {
   padding: .5rem;
   margin: .5rem;
+  color: rgb(36, 182, 214);
 }
 
 body {
@@ -102,10 +103,6 @@ p.double-space {
 .main {
   padding: 1rem 20rem 1rem 12rem;
   line-height: 2;
-}
-
-a {
-  color: rgb(36, 182, 214);
 }
 
 .callout {
